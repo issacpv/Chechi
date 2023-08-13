@@ -1,4 +1,4 @@
-import sys  
+import sys 
 
 def symbolOne(arr, count):
     for x in range(count):
