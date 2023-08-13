@@ -44,7 +44,7 @@ def main(argv):
     pVal = symbol(pVal, count)
     rVal = symbol(rVal, count)
 
-    with open('studens.csv', 'w', newline='') as file:
+    with open('results.csv', 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(["Name", "Peak Value", "Reference Value"])
         for x in range(count):
